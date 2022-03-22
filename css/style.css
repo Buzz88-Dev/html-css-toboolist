@@ -68,8 +68,14 @@ main {
     padding: 10px 20px;
 }
 
-h2, p {
+h2 {
     margin-top: 10px;
+    font-size: 30px
+}
+
+p {
+    margin-top: 10px;
+    font-size: 17px;
 }
 
 h2 span {
