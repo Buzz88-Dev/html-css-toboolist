@@ -30,7 +30,8 @@ header h1 {
 
 main {
     background-color: red;
-    margin: 50px auto;
+    margin: auto;
+    padding: 20px;
 }
 
 .pulsanti {
@@ -40,6 +41,7 @@ main {
     line-height: 40px;
     vertical-align: middle;
     background-color: white;
+    border: 2px solid black;
 }
 
 .addtask {
@@ -59,10 +61,17 @@ main {
     padding: 5px;
 }
 
+/* seconda parte main */
+
 .area {
     width: 70%;
     margin: 1px auto;
     background-color: white;
+    border: 2px solid black;
+}
+
+.area span {
+    display: block;
 }
 
 .newtask {
