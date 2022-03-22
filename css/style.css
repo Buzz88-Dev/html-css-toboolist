@@ -30,7 +30,6 @@ header h1 {
 
 main {
     background-color: rgb(248, 246, 246);
-    margin: auto;
     padding: 20px;
 }
 
@@ -44,11 +43,11 @@ main {
 }
 
 .addtask {
-    background-color: aqua;
+    background-color: rgb(44, 248, 238);
     color: white;
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
 }
 
 .addsection {
@@ -57,7 +56,7 @@ main {
     font-weight: bold;
     border-radius: 5px;
     border: 1px solid rgb(235, 220, 220);
-    padding: 5px;
+    padding: 8px;
 }
 
 /* seconda parte main */
@@ -66,6 +65,7 @@ main {
     width: 70%;
     margin: 5px auto;
     background-color: white;
+    padding: 10px 20px;
 }
 
 h2, p {
@@ -77,9 +77,8 @@ h2 span {
     vertical-align: middle;
 }
 
-
 .newtask {
-    padding: 10px 20px;
+    margin-top: 25px;
 }
 
 .spuntaverde {
@@ -104,7 +103,7 @@ h2 span {
 
 .editorial {
     color: white;
-    background-color: aqua;
+    background-color: rgb(44, 248, 238);
     border-radius: 10px;
     padding: 7px;
     font-weight: bold;
