@@ -1,0 +1,70 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    padding: 15px;
+    line-height: 50px;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+header .logo {
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+/* main */
+
+main {
+    background-color: red;
+    margin: 50px auto;
+}
+
+.pulsanti {
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px 20px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.addtask {
+    background-color: aqua;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.addsection {
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.area {
+    width: 70%;
+    margin: 1px auto;
+    background-color: white;
+}
+
+.newtask {
+    padding: 10px 20px;
+}
